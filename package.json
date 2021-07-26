@@ -1,0 +1,19 @@
+{
+    "name": "sunshine-ui",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    },
+    "version": "1.0.0",
+    "scripts": {
+        "lerna": "lerna publish",
+        "plop": "plop"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
