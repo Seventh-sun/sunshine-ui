@@ -13,42 +13,32 @@ module.exports = plop => {
             {
                 type: 'add',
                 path: 'packages/{{name}}/src/{{name}}.vue',
-                templateFile: 'template/component/src/component.hbs'
+                templateFile: 'template/src/component.hbs'
             },
             {
                 type: 'add',
                 path: 'packages/{{name}}/__tests__/{{name}}.test.js',
-                templateFile: 'template/component/__tests__/component.test.hbs'
-            },
-            {
-                type: 'add',
-                path: 'packages/{{name}}/src/{{name}}.vue',
-                templateFile: 'template/component/src/component.hbs'
+                templateFile: 'template/__tests__/component.test.hbs'
             },
             {
                 type: 'add',
                 path: 'packages/{{name}}/index.js',
-                templateFile: 'template/component/index.hbs'
+                templateFile: 'template/index.hbs'
             },
             {
                 type: 'add',
                 path: 'packages/{{name}}/LiCENSE',
-                templateFile: 'template/component/LiCENSE'
+                templateFile: 'template/LiCENSE'
             },
             {
                 type: 'add',
-                path: 'packages/{{name}}/src/{{name}}.vue',
-                templateFile: 'template/component/src/component.hbs'
-            },
-            {
-                type: 'add',
-                path: 'packages/{{name}}/package.js',
-                templateFile: 'template/component/package.hbs'
+                path: 'packages/{{name}}/package.json',
+                templateFile: 'template/package.hbs'
             },
             {
                 type: 'add',
                 path: 'packages/{{name}}/README.md',
-                templateFile: 'template/component/README.hbs'
+                templateFile: 'template/README.hbs'
             }
         ]
     })

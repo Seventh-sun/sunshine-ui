@@ -1,7 +1,7 @@
 {
-  "name": "sun-{{name}}",
+  "name": "sun-button",
   "version": "0.0.0",
-  "description": "sun-{{name}} component",
+  "description": "sun-button component",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "scripts": {
