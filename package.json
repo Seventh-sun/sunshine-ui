@@ -27,7 +27,7 @@
         "build:dev": "cross-env NODE_ENV=development rollup -c",
         "lerna": "lerna publish",
         "plop": "plop",
-        "clean": "lerna clear",
+        "clean": "lerna clean",
         "storybook": "start-storybook -p 6006"
     },
     "keywords": [],
